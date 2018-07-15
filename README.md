@@ -13,7 +13,7 @@ want to show a diff of user-generated HTML (like from a wysiwyg editor).
 You use it like this:
 
 ```JavaScript
-import { diff } from 'htmldiff.mjs';
+import { diff } from 'htmldiff-mjs';
 
 console.log(diff('<p>this is some text</p>', '<p>this is some more text</p>'));
 ```
