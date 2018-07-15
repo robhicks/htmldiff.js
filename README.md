@@ -1,10 +1,10 @@
-# htmldiff.js
-### HTML Diffing in JavaScript (ok, CoffeeScript actually.)
+# htmldiff.mjs
 
-[![Build Status](https://secure.travis-ci.org/tnwinc/htmldiff.js.png)](http://travis-ci.org/tnwinc/htmldiff.js)
+### HTML Diffing in JavaScript
 
-`htmldiff.js` is a CoffeeScript port of https://github.com/myobie/htmldiff
-(This one has a few more tests.)
+[![Build Status](https://secure.travis-ci.org/robhicks/htmldiff.mjs.png)](http://travis-ci.org/robhicks/htmldiff.mjs)
+
+`htmldiff.mjs` is a EmcaScript 2015 port of https://github.com/tnwinc/htmldiff.js which is a port of https://github.com/myobie/htmldiff.
 
 This is diffing that understands HTML. Best suited for cases when you
 want to show a diff of user-generated HTML (like from a wysiwyg editor).
@@ -12,20 +12,16 @@ want to show a diff of user-generated HTML (like from a wysiwyg editor).
 ##Usage
 You use it like this:
 
-```coffeescript
+```JavaScript
+import { diff } from 'htmldiff.mjs';
 
-  diff = require 'htmldiff.js'
-  console.log diff '<p>this is some text</p>', '<p>this is some more text</p>'
+console.log(diff('<p>this is some text</p>', '<p>this is some more text</p>'));
 ```
+
 And you get:
 
 ```html
 <p>this is some <ins>more </ins>text</p>
 ```
-##Module
-
-It should be multi-module aware. ie. it should work as a node.js module
-or an AMD (RequireJS) module, or even just as a script tag.
-
 
 Licensed under the MIT License. See the `LICENSE` file for details.

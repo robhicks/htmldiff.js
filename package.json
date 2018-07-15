@@ -1,31 +1,27 @@
 {
-    "name": "htmldiff",
-    "version": "0.0.4",
-    "description": "HTML Diffing in JavaScript (CoffeeScript)",
-    "main": "htmldiff.js",
-    "scripts": {
-        "test": "mocha -R min",
-        "install": "coffee --compile src"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/tnwinc/htmldiff.js.git"
-    },
-    "issues": {
-      "url": "https://github.com/tnwinc/htmldiff.js/issues"
-    },
-    "keywords": [
-        "diff",
-        "htmldiff",
-        "html"
-    ],
-    "dependencies": {
-        "coffee-script": "*"
-    },
-    "devDependencies": {
-        "chai": "*",
-        "mocha": "*"
-    },
-    "author": "The Network Inc.",
-    "license": "MIT (Expat)"
+  "name": "htmldiff-mjs",
+  "version": "1.0.0",
+  "description": "HTML Diffing in JavaScript",
+  "module": "src/htmldiff.mjs",
+  "scripts": {
+    "test": "mocha -R min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robhicks/htmldiff.mjs.git"
+  },
+  "issues": {
+    "url": "https://github.com/robhicks/htmldiff.mjs/issues"
+  },
+  "keywords": [
+    "diff",
+    "htmldiff",
+    "html"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "author": "The Network Inc.",
+  "license": "MIT (Expat)"
 }
