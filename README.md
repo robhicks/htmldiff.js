@@ -1,10 +1,10 @@
-# htmldiff.mjs
+# htmldiff-mjs
 
 ### HTML Diffing in JavaScript
 
 [![Build Status](https://secure.travis-ci.org/robhicks/htmldiff.mjs.png)](http://travis-ci.org/robhicks/htmldiff.mjs)
 
-`htmldiff.mjs` is a EmcaScript 2015 port of https://github.com/tnwinc/htmldiff.js which is a port of https://github.com/myobie/htmldiff.
+`htmldiff-mjs` is a EmcaScript 2015 port of https://github.com/tnwinc/htmldiff.js which is a port of https://github.com/myobie/htmldiff.
 
 This is diffing that understands HTML. Best suited for cases when you
 want to show a diff of user-generated HTML (like from a wysiwyg editor).
